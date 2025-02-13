@@ -3,6 +3,7 @@
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
  <h1>Albert Thomas</h1>
@@ -13,5 +14,6 @@
     Since I like creating stuff, web development peaked my interest. I am 
     eager to learn new skills and concepts to aid in my creative development
     and being a web developer will help me do just that.</p>
+    <img src="{{ url_for('static', filename='image.jpg') }}" alt="About Us Image" width="400">
 </body>
 </html>
